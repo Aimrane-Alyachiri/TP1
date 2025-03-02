@@ -1,0 +1,10 @@
+const readline=require('readline-sync');
+console.log("donner trois note est leur coefficients respectifs:");
+let note1=readline.questionInt("donner le note1 :");
+let coef1=readline.questionInt("leur coefficient :");
+let note2=readline.questionInt("donner le note2 ");
+let coef2=readline.questionInt("leur coefficient :");
+let note3=readline.questionInt("donner le note3 :");
+let coef3=readline.questionInt("leur coefficient :");
+let moyenne=(note1*coef1+note2*coef2+note3*coef3)/(coef1+coef2+coef3);
+console.log(`moyenne est ${moyenne}`);
