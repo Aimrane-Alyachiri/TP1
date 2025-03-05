@@ -1,3 +1,3 @@
-//EX2:
-let c="123";
-console.log(Number(c));
+//EX:2
+let chaine="123";
+console.log(Number(chaine));

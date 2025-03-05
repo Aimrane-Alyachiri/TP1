@@ -1,3 +1,3 @@
-const readline=require('readline-sync');
-let mot=readline.question("donner un mote :");
-console.log("la langueur de mot est ",mot.length);
+const readline=require('readline-sync')
+let mots=readline.question("donner un mots :");
+console.log("la langueur de mots est : ",mots.length);

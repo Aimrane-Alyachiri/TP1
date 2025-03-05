@@ -1,6 +1,6 @@
 const readline=require('readline-sync');
 let mot=readline.question("donne le mots :");
-let motInverse='';
+let motInverse="";
 for(let j=mot.length-1;0<=j;j--){
     motInverse+=mot[j];
 }
